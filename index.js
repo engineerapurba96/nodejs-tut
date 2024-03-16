@@ -9,7 +9,7 @@ console.log(data)
 
 const main=async ()=>{
    let data = await dbConnect();
-   data = await data.find({name:'vivo'}).toArray();
+   data = await data.find({name:'ivo'}).toArray();
    console.log(data)
 }
 

@@ -4,9 +4,9 @@ const insertData=async ()=>{
    let data = await dbConnect();
   let result = await data.insert(
       [
-          {name:'max 5',brand:'micromax',price:420,category:'mobile'},
-          {name:'max 6',brand:'micromax',price:520,category:'mobile'},
-          {name:'max 7',brand:'micromax',price:620,category:'mobile'},
+          {name:'ax 5',brand:'microdmax',price:4230,category:'mobilwe'},
+          {name:'mffax 6',brand:'middcromax',price:5230,category:'mobile'},
+          {name:'max 7',brand:'micdromax',price:6230,category:'mobile'},
 
       ]
   )
